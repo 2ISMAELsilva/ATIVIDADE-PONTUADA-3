@@ -32,7 +32,7 @@ class Reserva:
         print(f"Passageiro: {self.nome_passageiro}")
 
 
-# FUNÇÕES AUXILIARES
+# FUNÇÕES VERIFICAÇÃO
 
 def verificar_lista_vazia_avioes(lista):
     if not lista:
@@ -196,7 +196,7 @@ def consultar_reserva_aviao():
     print("------------------------------------\n")
 
 
-# MENUS ------------------------------------------------------------
+# MENUS 
 
 def menu_avioes():
     print("\n=========== SISTEMA DE AVIÕES ===========")
@@ -247,8 +247,6 @@ def menu_reservas():
     else:
         print(" Opção inválida!")
 
-
-# EXECUÇÃO ---------------------------------------------------------
 
 while True:
     print("\n=========== SWEET FLIGHT ===========")
